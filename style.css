@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+    background-image: url("https://i.imgur.com/3oJyOdS.jpeg");
+    /* image created by chatgpt */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed;
+
+}
+
+.gamebox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    /* background-color: black; */
+    position: fixed;
+}
+.title {
+    font-size: 75px;
+  color:blue;
+}
+.pizzaclickerbox {
+  border: 2px solid yellow;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items: center;
+position: relative;  
+  
+}
+.pizzaimage{
+    display: block;
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.score {
+  font-size: 50px;
+  color:blue;
+  margin-bottom: 5%;
+}
+
+/* button accomplishes nothing, click function can be tied to image */
+/* .clicker {
+  margin-top: 240px;
+  width: 150px;
+  height: 150px;
+  cursor:pointer;
+ position:fixed ;
+ opacity: 1%;
+} */
